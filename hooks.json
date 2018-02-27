@@ -1,0 +1,42 @@
+[
+  {
+    "id": "login-prod",
+    "execute-command": "npm run prod/login",
+    "command-working-directory": "/home/younghwang_kang/adp/wfn-demo"
+  },
+  {
+    "id": "landing-prod",
+    "execute-command": "npm run prod/landing",
+    "command-working-directory": "/home/younghwang_kang/adp/wfn-demo"
+  },
+  {
+    "id": "login-prod-akamai",
+    "execute-command": "npm run prod/a/login",
+    "command-working-directory": "/home/younghwang_kang/adp/wfn-demo"
+  },
+  {
+    "id": "landing-prod-akamai",
+    "execute-command": "npm run prod/a/landing",
+    "command-working-directory": "/home/younghwang_kang/adp/wfn-demo"
+  },
+  {
+    "id": "login-iat",
+    "execute-command": "npm run iat/login",
+    "command-working-directory": "/home/younghwang_kang/adp/wfn-demo"
+  },
+  {
+    "id": "landing-iat",
+    "execute-command": "npm run iat/landing",
+    "command-working-directory": "/home/younghwang_kang/adp/wfn-demo"
+  },
+  {
+    "id": "login-iat-akamai",
+    "execute-command": "npm run iat/a/login",
+    "command-working-directory": "/home/younghwang_kang/adp/wfn-demo"
+  },
+  {
+    "id": "landing-iat-akamai",
+    "execute-command": "npm run iat/a/landing",
+    "command-working-directory": "/home/younghwang_kang/adp/wfn-demo"
+  }
+]

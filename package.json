@@ -1,0 +1,29 @@
+{
+  "name": "wfn-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "prod-login": "node prod/login.js",
+    "prod-landing": "node prod/landing.js",
+    "prod-landing-m": "node prod/landing-multi.js",
+    "prod-a-login": "node prod/a/login.js",
+    "prod-a-landing": "node prod/a/landing.js",
+    "prod-a-landing-m": "node prod/a/landing-multi.js",
+    "iat-landing": "node iat/landing.js",
+    "iat-landing-m": "node iat/landing-multi.js",
+    "iat-login": "node iat/login.js",
+    "iat-a-landing": "node iat/a/landing.js",
+    "iat-a-landing-m": "node iat/a/landing-multi.js",
+    "iat-a-login": "node iat/a/login.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpagetest": "^0.3.6"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
